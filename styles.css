@@ -1,0 +1,94 @@
+body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #00796B, #004D40); /* تدرج اللون */
+            margin: 0;
+            direction: rtl; /* Right to Left writing style */
+            height: 100vh; /* اجعل الطول 100% من ارتفاع نافذة العرض */
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.header-logo {
+    margin-bottom: 20px;
+}
+
+.header-logo img {
+    width: 80px;
+}
+
+.form-container {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    color: #333;
+}
+
+.form-container input {
+    width: 80%; /* Reduced width */
+    padding: 10px;
+    margin: 10px 0;
+    border: none; /* Remove border */
+    border-bottom: 2px solid #ccc; /* Add bottom border */
+    border-radius: 0; /* Remove border-radius */
+    background: none; /* Remove background */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container input:focus {
+    outline: none;
+    border-bottom: 2px solid #be0060; /* Change bottom border color on focus */
+}
+
+.form-container label {
+    display: block;
+    text-align: right;
+    margin: 0 10%; /* Align labels with inputs */
+}
+
+.form-container button {
+    background-color: #D81B60; /* Updated color */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 60%; /* تحديد عرض الزر */
+    font-size: 18px; /* تحديد حجم النص */
+    margin: 20px 0; /* Add margin to separate from inputs */
+}
+
+.get-new-code, .register-new {
+    margin-top: 15px;
+    display: block;
+    color: #000;
+    text-decoration: underline;
+    text-align: center; /* Center align the text */
+}
+
+.footer {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #fff; /* لون النص في المنطقة السفلية */
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer-icon {
+    margin-top: 20px;
+}
+
+.footer-icon img {
+    width: 20px;
+    vertical-align: middle; /* توسيط الأيقونة مع النص */
+    margin-left: 5px; /* تحديد هامش يسار للأيقونة */
+}
